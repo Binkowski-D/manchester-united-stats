@@ -1,0 +1,32 @@
+[
+  {
+    "player": {
+      "name": "Bruno Fernandes",
+      "age": 28,
+      "nationality": "Portugal",
+      "number": 8,
+      "photo": "https://example.com/bruno.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 37,
+          "minutes": 3320,
+          "position": "Midfielder",
+          "rating": "7.61"
+        },
+        "goals": {
+          "total": 8,
+          "assists": 8,
+          "saves": 0
+        },
+        "passes": {
+          "total": 1856,
+          "key": 121,
+          "accuracy": 75
+        },
+        "cards": {
+          "yellow": 6,
+          "red": 0
+        }
+]

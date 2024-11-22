@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #d71920;
+    display: flex;
+    align-items: center;
+    padding: 2vh 5vw;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.logo-left {
+    margin-right: auto;
+}
+
+.logo-right {
+    margin-left: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5vw;
+    margin: 0 2vw;
+    flex-shrink: 0;
+}
+
+.description {
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 0.8vw;
+}
+
+.description p {
+    margin: 0;
+    line-height: 1.5;
+    margin-bottom: 10vh;
+}
+
+.player-details-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 5vh 5vw;
+    max-width: 20vw;
+    margin: auto;
+    border: 0.1vw solid #ddd;
+    border-radius: 1em;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.1);
+    background-color: #ffe082;
+}
+
+.player-photo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.player-photo img {
+    margin-left: -5vw;
+    width: 100%;
+    max-width: 15vw;
+    height: auto;
+    border-radius: 1em;
+    box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.1);
+}
+
+.player-info {
+    flex: 2;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: -1em;
+}
+
+.player-info h2 {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    color: #d71920;
+}
+
+.player-info h2:nth-of-type(2) {
+    margin-top: 2em;
+}
+
+.player-info p {
+    font-size: 1.1em;
+    margin: 0.5em 0 1em 0;
+    color: #555;
+}
+
+.player-info strong {
+    color: #333;
+}
+
+.back-button-container {
+    text-align: center;
+    margin: 3vh 0;
+}
+
+.back-button {
+    background-color: #d71920;
+    color: white;
+    padding: 0.5em 1.5em;
+    border-radius: 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0.3em 0.6em rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #b6161d;
+}

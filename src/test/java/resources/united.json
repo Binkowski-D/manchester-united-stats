@@ -1,0 +1,870 @@
+[
+  {
+    "player": {
+      "name": "Raphael Varane",
+      "age": 29,
+      "nationality": "France",
+      "number": 19,
+      "photo": "https://media.api-sports.io/football/players/742.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 24,
+          "minutes": 1915,
+          "position": "Defender",
+          "rating": "6.87"
+        },
+        "goals": {
+          "total": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 1099,
+          "key": 4,
+          "accuracy": 89
+        },
+        "cards": {
+          "yellow": 1,
+          "red": 0
+        }
+      }
+    ]
+  },
+
+  {
+    "player": {
+      "name": "Bruno Fernandes",
+      "age": 28,
+      "nationality": "Portugal",
+      "number": 8,
+      "photo": "https://media.api-sports.io/football/players/1485.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 37,
+          "minutes": 3320,
+          "position": "Midfielder",
+          "rating": "7.61"
+        },
+        "goals": {
+          "total": 8,
+          "assists": 8,
+          "saves": 0
+        },
+        "passes": {
+          "total": 1856,
+          "key": 121,
+          "accuracy": 75
+        },
+        "cards": {
+          "yellow": 6,
+          "red": 0
+        }
+      }
+    ]
+  },
+
+  {
+    "player": {
+      "name": "Wout Weghorst",
+      "age": 30,
+      "nationality": "Netherlands",
+      "number": 27,
+      "photo": "https://media.api-sports.io/football/players/25416.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 17,
+          "minutes": 797,
+          "position": "Attacker",
+          "rating": "6.61"
+        },
+        "goals": {
+          "total": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 207,
+          "key": 14,
+          "accuracy": 75
+        },
+        "cards": {
+          "yellow": 1,
+          "red": 0
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Lisandro Martínez",
+      "age": 24,
+      "nationality": "Argentina",
+      "number": 6,
+      "photo": "https://media.api-sports.io/football/players/2467.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 27,
+          "minutes": 2116,
+          "position": "Defender",
+          "rating": "7.15"
+        },
+        "goals": {
+          "total": 1,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 1518,
+          "key": 6,
+          "accuracy": 50
+        },
+        "cards": {
+          "yellow": 6,
+          "red": 0
+        }
+      }
+    ]
+  },
+
+  {
+    "player": {
+      "name": "Aaron Wan-Bissaka",
+      "age": 25,
+      "nationality": "England",
+      "number": 29,
+      "photo": "https://media.api-sports.io/football/players/18846.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 19,
+          "minutes": 1436,
+          "position": "Defender",
+          "rating": "6.96"
+        },
+        "goals": {
+          "total": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 705,
+          "key": 15,
+          "accuracy": 78
+        },
+        "cards": {
+          "yellow": 2,
+          "red": 0
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Anthony Elanga",
+      "age": 20,
+      "nationality": "Sweden",
+      "number": 36,
+      "photo": "https://media.api-sports.io/football/players/153430.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 16,
+          "minutes": 420,
+          "position": "Attacker",
+          "rating": "6.58"
+        },
+        "goals": {
+          "total": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 121,
+          "key": 6,
+          "accuracy": 74
+        },
+        "cards": {
+          "yellow": 0,
+          "red": 0
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Jadon Sancho",
+      "age": 22,
+      "nationality": "England",
+      "number": 25,
+      "photo": "https://media.api-sports.io/football/players/18.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 26,
+          "minutes": 1698,
+          "position": "Attacker",
+          "rating": "6.87"
+        },
+        "goals": {
+          "total": 6,
+          "assists": 3,
+          "saves": 0
+        },
+        "passes": {
+          "total": 749,
+          "key": 44,
+          "accuracy": 79
+        },
+        "cards": {
+          "yellow": 0,
+          "red": 0
+        }
+      }
+    ]
+  },
+
+  {
+    "player": {
+      "name": "Donny van de Beek",
+      "age": 25,
+      "nationality": "Netherlands",
+      "number": 34,
+      "photo": "https://media.api-sports.io/football/players/547.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 7,
+          "minutes": 164,
+          "position": "Midfielder",
+          "rating": "6.39"
+        },
+        "goals": {
+          "total": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 59,
+          "key": 3,
+          "accuracy": 85
+        },
+        "cards": {
+          "yellow": 0,
+          "red": 0
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Luke Shaw",
+      "age": 27,
+      "nationality": "England",
+      "number": 23,
+      "photo": "https://media.api-sports.io/football/players/891.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 31,
+          "minutes": 2557,
+          "position": "Defender",
+          "rating": "7.15"
+        },
+        "goals": {
+          "total": 1,
+          "assists": 2,
+          "saves": 0
+        },
+        "passes": {
+          "total": 1806,
+          "key": 35,
+          "accuracy": 50
+        },
+        "cards": {
+          "yellow": 8,
+          "red": 0
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Diogo Dalot",
+      "age": 23,
+      "nationality": "Portugal",
+      "number": 20,
+      "photo": "https://media.api-sports.io/football/players/886.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 26,
+          "minutes": 2155,
+          "position": "Defender",
+          "rating": "7.03"
+        },
+        "goals": {
+          "total": 1,
+          "assists": 2,
+          "saves": 0
+        },
+        "passes": {
+          "total": 1188,
+          "key": 29,
+          "accuracy": 80
+        },
+        "cards": {
+          "yellow": 6,
+          "red": 0
+        }
+      }
+    ]
+  },
+
+  {
+    "player": {
+      "name": "Tyrell Malacia",
+      "age": 23,
+      "nationality": "Netherlands",
+      "number": 12,
+      "photo": "https://media.api-sports.io/football/players/37145.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 22,
+          "minutes": 1392,
+          "position": "Defender",
+          "rating": "6.76"
+        },
+        "goals": {
+          "total": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 667,
+          "key": 9,
+          "accuracy": 79
+        },
+        "cards": {
+          "yellow": 6,
+          "red": 0
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Harry Maguire",
+      "age": 29,
+      "nationality": "England",
+      "number": 5,
+      "photo": "https://media.api-sports.io/football/players/2935.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 16,
+          "minutes": 759,
+          "position": "Defender",
+          "rating": "6.92"
+        },
+        "goals": {
+          "total": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 574,
+          "key": 1,
+          "accuracy": 84
+        },
+        "cards": {
+          "yellow": 4,
+          "red": 0
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Victor Lindelöf",
+      "age": 28,
+      "nationality": "Sweden",
+      "number": 2,
+      "photo": "https://media.api-sports.io/football/players/889.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 20,
+          "minutes": 1360,
+          "position": "Defender",
+          "rating": "6.82"
+        },
+        "goals": {
+          "total": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 927,
+          "key": 3,
+          "accuracy": 45
+        },
+        "cards": {
+          "yellow": 1,
+          "red": 0
+        }
+      }
+    ]
+  },
+
+  {
+    "player": {
+      "name": "Antony",
+      "age": 22,
+      "nationality": "Brazil",
+      "number": 21,
+      "photo": "https://media.api-sports.io/football/players/9971.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 25,
+          "minutes": 1817,
+          "position": "Attacker",
+          "rating": "6.92"
+        },
+        "goals": {
+          "total": 4,
+          "assists": 2,
+          "saves": 0
+        },
+        "passes": {
+          "total": 774,
+          "key": 29,
+          "accuracy": 77
+        },
+        "cards": {
+          "yellow": 5,
+          "red": 0
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Alejandro Garnacho",
+      "age": 18,
+      "nationality": "Argentina",
+      "number": 49,
+      "photo": "https://media.api-sports.io/football/players/284324.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 19,
+          "minutes": 562,
+          "position": "Attacker",
+          "rating": "6.49"
+        },
+        "goals": {
+          "total": 3,
+          "assists": 2,
+          "saves": 0
+        },
+        "passes": {
+          "total": 185,
+          "key": 3,
+          "accuracy": 74
+        },
+        "cards": {
+          "yellow": 3,
+          "red": 0
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Marcus Rashford",
+      "age": 25,
+      "nationality": "England",
+      "number": 10,
+      "photo": "https://media.api-sports.io/football/players/909.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 35,
+          "minutes": 2889,
+          "position": "Attacker",
+          "rating": "6.91"
+        },
+        "goals": {
+          "total": 17,
+          "assists": 5,
+          "saves": 0
+        },
+        "passes": {
+          "total": 779,
+          "key": 30,
+          "accuracy": 76
+        },
+        "cards": {
+          "yellow": 2,
+          "red": 0
+        }
+      }
+    ]
+  },
+
+  {
+    "player": {
+      "name": "Kobbie Mainoo",
+      "age": 17,
+      "nationality": "England",
+      "number": 73,
+      "photo": "https://media.api-sports.io/football/players/284322.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 1,
+          "minutes": 10,
+          "position": "Midfielder",
+          "rating": "6.20"
+        },
+        "goals": {
+          "total": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 8,
+          "key": 0,
+          "accuracy": 70
+        },
+        "cards": {
+          "yellow": 0,
+          "red": 0
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Casemiro",
+      "age": 30,
+      "nationality": "Brazil",
+      "number": 18,
+      "photo": "https://media.api-sports.io/football/players/747.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 28,
+          "minutes": 2126,
+          "position": "Midfielder",
+          "rating": "7.24"
+        },
+        "goals": {
+          "total": 4,
+          "assists": 3,
+          "saves": 0
+        },
+        "passes": {
+          "total": 1412,
+          "key": 29,
+          "accuracy": 82
+        },
+        "cards": {
+          "yellow": 7,
+          "red": 2
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Christian Eriksen",
+      "age": 30,
+      "nationality": "Denmark",
+      "number": 14,
+      "photo": "https://media.api-sports.io/football/players/174.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 28,
+          "minutes": 2062,
+          "position": "Midfielder",
+          "rating": "6.97"
+        },
+        "goals": {
+          "total": 1,
+          "assists": 8,
+          "saves": 0
+        },
+        "passes": {
+          "total": 1391,
+          "key": 36,
+          "accuracy": 84
+        },
+        "cards": {
+          "yellow": 3,
+          "red": 0
+        }
+      }
+    ]
+  },
+
+  {
+    "player": {
+      "name": "David de Gea",
+      "age": 32,
+      "nationality": "Spain",
+      "number": 1,
+      "photo": "https://media.api-sports.io/football/players/882.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 38,
+          "minutes": 3420,
+          "position": "Goalkeeper",
+          "rating": "6.93"
+        },
+        "goals": {
+          "total": 0,
+          "assists": 0,
+          "saves": 101
+        },
+        "passes": {
+          "total": 1083,
+          "key": 1,
+          "accuracy": 70
+        },
+        "cards": {
+          "yellow": 0,
+          "red": 0
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Scott McTominay",
+      "age": 26,
+      "nationality": "Scotland",
+      "number": 39,
+      "photo": "https://media.api-sports.io/football/players/903.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 24,
+          "minutes": 1149,
+          "position": "Midfielder",
+          "rating": "6.67"
+        },
+        "goals": {
+          "total": 1,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 426,
+          "key": 8,
+          "accuracy": 80
+        },
+        "cards": {
+          "yellow": 8,
+          "red": 0
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Marcel Sabitzer",
+      "age": 28,
+      "nationality": "Austria",
+      "number": 15,
+      "photo": "https://media.api-sports.io/football/players/1159.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 11,
+          "minutes": 628,
+          "position": "Midfielder",
+          "rating": "6.84"
+        },
+        "goals": {
+          "total": 0,
+          "assists": 1,
+          "saves": 0
+        },
+        "passes": {
+          "total": 296,
+          "key": 10,
+          "accuracy": 81
+        },
+        "cards": {
+          "yellow": 1,
+          "red": 0
+        }
+      }
+    ]
+  },
+
+  {
+    "player": {
+      "name": "Facundo Pellistri",
+      "age": 21,
+      "nationality": "Uruguay",
+      "number": 28,
+      "photo": "https://media.api-sports.io/football/players/70078.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 4,
+          "minutes": 60,
+          "position": "Midfielder",
+          "rating": "6.50"
+        },
+        "goals": {
+          "total": 0,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 15,
+          "key": 0,
+          "accuracy": 73
+        },
+        "cards": {
+          "yellow": 0,
+          "red": 0
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Anthony Martial",
+      "age": 27,
+      "nationality": "France",
+      "number": 9,
+      "photo": "https://media.api-sports.io/football/players/908.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 21,
+          "minutes": 979,
+          "position": "Attacker",
+          "rating": "6.74"
+        },
+        "goals": {
+          "total": 6,
+          "assists": 2,
+          "saves": 0
+        },
+        "passes": {
+          "total": 320,
+          "key": 12,
+          "accuracy": 78
+        },
+        "cards": {
+          "yellow": 0,
+          "red": 0
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "name": "Cristiano Ronaldo",
+      "age": 37,
+      "nationality": "Portugal",
+      "number": 7,
+      "photo": "https://media.api-sports.io/football/players/874.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 10,
+          "minutes": 520,
+          "position": "Attacker",
+          "rating": "6.81"
+        },
+        "goals": {
+          "total": 1,
+          "assists": 0,
+          "saves": 0
+        },
+        "passes": {
+          "total": 158,
+          "key": 6,
+          "accuracy": 80
+        },
+        "cards": {
+          "yellow": 2,
+          "red": 0
+        }
+      }
+    ]
+  },
+
+  {
+    "player": {
+      "name": "Fred",
+      "age": 29,
+      "nationality": "Brazil",
+      "number": 17,
+      "photo": "https://media.api-sports.io/football/players/905.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "appearences": 35,
+          "minutes": 1233,
+          "position": "Midfielder",
+          "rating": "6.78"
+        },
+        "goals": {
+          "total": 2,
+          "assists": 2,
+          "saves": 0
+        },
+        "passes": {
+          "total": 763,
+          "key": 30,
+          "accuracy": 81
+        },
+        "cards": {
+          "yellow": 6,
+          "red": 0
+        }
+      }
+    ]
+  }
+]

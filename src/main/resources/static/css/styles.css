@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #d71920;
+    display: flex;
+    align-items: center;
+    padding: 2vh 5vw;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.logo-left {
+    margin-right: auto;
+}
+
+.logo-right {
+    margin-left: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5vw;
+    margin: 0 2vw;
+    flex-shrink: 0;
+}
+
+.description {
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 0.8vw;
+}
+
+.description p {
+    margin: 0;
+    line-height: 1.5;
+    margin-bottom: 10vh;
+}
+
+.left-sidebar {
+    display: block;
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.name {
+    margin: 0;
+    text-align: left;
+    padding-left: 6.7vw;
+    font-weight: bold;
+}
+
+.info {
+    font-weight: bold;
+    padding-right: 1vw;
+}
+
+.left-sidebar-item {
+    width: 20vw;
+    background-color: #ffe082;
+    padding-bottom: 2vh 1vw;
+    border-radius: 1em;
+    box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.1);
+}
+
+.left-sidebar h2 {
+    padding-top: 2vh;
+    padding-left: 0.5vw;
+}
+
+.left-sidebar-item ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.left-sidebar-item li {
+    display: flex;
+    align-items: center;
+    padding: 0.5em 0;
+    position: relative;
+}
+
+.left-sidebar-item .list-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 1em;
+}
+
+.left-sidebar-item li img {
+    margin-right: 1vw;
+    border-radius: 50%;
+    max-height: 6vh;
+    margin-left: 1vw;
+}
+
+.left-sidebar-item li .player-name {
+    flex: 1;
+    text-align: left;
+    padding-left: 1vw;
+}
+
+.left-sidebar-item li .stat {
+    text-align: right;
+    padding-right: 1.5vw;
+    padding-left: 0.5vw;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2vw;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.search-players {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe082;
+    padding: 2vh 1vw;
+    border-radius: 1em;
+    box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.1);
+    margin-top: 2vh;
+    width: 90%;
+}
+
+.search-players h2 {
+    margin: 0;
+    padding-bottom: 1vh;
+}
+
+.search-players label {
+    font-weight: bold;
+    color: #8B0000;
+}
+
+.search-options {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.search-options .option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-options label {
+    margin-right: 0.5em;
+    font-weight: bold;
+    color: #d71920;
+    margin-left: 0.5em;
+}
+
+.search-options input[type="checkbox"],
+.search-options select {
+    margin-top: 0.5em;
+    margin-left: 0;
+}
+
+.search-options select {
+    margin-top: -0.1em;
+}
+
+#allPlayersButton {
+    background-color: #d71920;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+#allPlayersButton:hover {
+    background-color: #b6161d;
+}
+
+.players-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10em;
+    padding: 1em 1em;
+}
+
+.player-card {
+    margin-left: -0.5vw;
+    text-align: center;
+    background-color: #ffe082;
+    padding: 0.8em;
+    border-radius: 0.5em;
+    box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.1);
+}
+
+.player-card img {
+    border-radius: 50%;
+    max-height: 6vh;
+}
+
+.player-name {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.details-button {
+    background-color: #d71920;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.players-found {
+    background-color: transparent;
+    margin-top: 17vh;
+    padding: 1em;
+    border: none;
+    box-shadow: none;
+    position: relative;
+}
+
+.players-found h2 {
+    margin-left: 0.3vw;
+}
+
+.no-players-message{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.no-players-message p{
+    font-weight: bold;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Man Utd 2022/23 Player Statistics</title>
+    <link rel="stylesheet" th:href="@{/css/player-details.css}">
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <img src="https://media.api-sports.io/football/leagues/39.png" alt="Premier League LOGO" class="logo-left">
+        <h1>MANCHESTER UNITED</h1>
+        <img src="https://media.api-sports.io/football/teams/33.png" alt="United LOGO" class="logo-right">
+    </div>
+</header>
+
+<section class="description">
+    <p>This page is dedicated to the statistics of Manchester United players who competed in the Premier League during the 2022/2023 season.</p>
+</section>
+
+<main class="player-details-container">
+    <div class="player-photo">
+        <img th:src="${playerData.player.photo}" th:alt="${playerData.player.name}">
+    </div>
+    <div class="player-info">
+        <h2>General Information</h2>
+        <p><strong>Name:</strong> <span th:text="${playerData.player.name}">Player Name</span></p>
+        <p><strong>Age:</strong> <span th:text="${playerData.player.age}">Player Age</span></p>
+        <p><strong>Nationality:</strong> <span th:text="${playerData.player.nationality}">Player Nationality</span></p>
+        <p><strong>Position:</strong> <span th:text="${playerData.statistics[0]?.games?.position}">Player Position</span></p>
+        <p><strong>Shirt Number:</strong> <span th:text="${playerData.player.number}">Player Number</span></p>
+
+        <h2>Statistics</h2>
+        <p><strong>Games:</strong> <span th:text="${playerData.statistics[0]?.games?.appearences}">0</span></p>
+        <p><strong>Minutes:</strong> <span th:text="${playerData.statistics[0]?.games?.minutes}">0</span></p>
+        <p><strong>Goals:</strong> <span th:text="${playerData.statistics[0]?.goals?.total}">0</span></p>
+        <p><strong>Assists:</strong> <span th:text="${playerData.statistics[0]?.goals?.assists}">0</span></p>
+        <p><strong>Passes:</strong> <span th:text="${playerData.statistics[0]?.passes?.total}">0</span></p>
+        <p><strong>Key Passes:</strong> <span th:text="${playerData.statistics[0]?.passes?.key}">0</span></p>
+        <p><strong>Pass Accuracy:</strong> <span th:text="${playerData.statistics[0]?.passes?.accuracy}">0</span>%</p>
+        <p><strong>Yellow Cards:</strong> <span th:text="${playerData.statistics[0]?.cards?.yellow}">0</span></p>
+        <p><strong>Red Cards:</strong> <span th:text="${playerData.statistics[0]?.cards?.red}">0</span></p>
+        <p><strong>Rating:</strong> <span th:text="${playerData.statistics[0]?.games?.rating ?: 'No Rating'}">No Rating</span></p>
+    </div>
+</main>
+
+<div class="back-button-container">
+    <a th:href="@{/players}" class="back-button">Back</a>
+</div>
+
+</body>
+</html>

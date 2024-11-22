@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Man Utd 2022/23 Player Statistics</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <img src="https://media.api-sports.io/football/leagues/39.png" alt="Premier League LOGO" class="logo-left">
+        <h1>MANCHESTER UNITED</h1>
+        <img src="https://media.api-sports.io/football/teams/33.png" alt="United LOGO" class="logo-right">
+    </div>
+</header>
+
+<section class="description">
+    <p>This page is dedicated to the statistics of Manchester United players who competed in the Premier League during the 2022/2023 season.</p>
+</section>
+
+<div class="container">
+    <div class="left-sidebar">
+        <!-- Top Rated -->
+        <div class="left-sidebar-item">
+            <h2>Top Rated</h2>
+            <ol>
+                <li>
+                    <div class="list-header">
+                        <span class="name">Name</span> <span class="info">Rating</span>
+                    </div>
+                </li>
+                <li th:each="playerData : ${topRated}">
+                    <div class="list-content">
+                        <img th:src="${playerData.player.photo}" th:alt="${playerData.player.name}">
+                        <span class="player-name" th:text="${playerData.player.name}">Player Name</span>
+                        <span class="stat" th:text="${playerData.statistics[0]?.games?.rating ?: 'No Rating'}">No Rating</span>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <!-- Top Scorers -->
+        <div class="left-sidebar-item">
+            <h2>Top Scorers</h2>
+            <ol>
+                <li>
+                    <div class="list-header">
+                        <span class="name">Name</span> <span class="info">Goals</span>
+                    </div>
+                </li>
+                <li th:each="playerData : ${topScorers}">
+                    <div class="list-content">
+                        <img th:src="${playerData.player.photo}" th:alt="${playerData.player.name}">
+                        <span class="player-name" th:text="${playerData.player.name}">Player Name</span>
+                        <span class="stat" th:text="${playerData.statistics[0]?.goals?.total ?: 'No Goals'}">No Goals</span>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <!-- Top Assistants -->
+        <div class="left-sidebar-item">
+            <h2>Top Assistants</h2>
+            <ol>
+                <li>
+                    <div class="list-header">
+                        <span class="name">Name</span> <span class="info">Assists</span>
+                    </div>
+                </li>
+                <li th:each="playerData : ${topAssistants}">
+                    <div class="list-content">
+                        <img th:src="${playerData.player.photo}" th:alt="${playerData.player.name}">
+                        <span class="player-name" th:text="${playerData.player.name}">Player Name</span>
+                        <span class="stat" th:text="${playerData.statistics[0]?.goals?.assists ?: 'No Assists'}">No Assists</span>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <!-- Search Section -->
+        <div class="search-players">
+            <h2>Search Players</h2>
+            <div class="search-options">
+                <form method="get" th:action="@{/players}">
+                    <input type="hidden" name="action" value="viewAll">
+                    <button id="allPlayersButton" type="submit">View All Players</button>
+                </form>
+
+                <form method="get" th:action="@{/players}">
+                    <input type="hidden" name="action" value="filter">
+                        <label for="positionSelect">View Players By Position:</label>
+                        <select id="positionSelect" name="position" onchange="this.form.submit()">
+                            <option value="" disabled th:selected="${position == null}" selected>Select position</option>
+                            <option value="attacker" th:selected="${position == 'attacker'}">Attacker</option>
+                            <option value="defender" th:selected="${position == 'defender'}">Defender</option>
+                            <option value="goalkeeper" th:selected="${position == 'goalkeeper'}">Goalkeeper</option>
+                            <option value="midfielder" th:selected="${position == 'midfielder'}">Midfielder</option>
+                        </select>
+
+                        <label for="nationalitySelect">View Players By Nationality:</label>
+                        <select id="nationalitySelect" name="nationality" onchange="this.form.submit()">
+                            <option value="" disabled th:selected="${nationality == null}" selected>Select nationality</option>
+                            <option value="argentina" th:selected="${nationality == 'argentina'}">Argentina</option>
+                            <option value="austria" th:selected="${nationality == 'austria'}">Austria</option>
+                            <option value="brazil" th:selected="${nationality == 'brazil'}">Brazil</option>
+                            <option value="denmark" th:selected="${nationality == 'denmark'}">Denmark</option>
+                            <option value="england" th:selected="${nationality == 'england'}">England</option>
+                            <option value="france" th:selected="${nationality == 'france'}">France</option>
+                            <option value="netherlands" th:selected="${nationality == 'netherlands'}">Netherlands</option>
+                            <option value="portugal" th:selected="${nationality == 'portugal'}">Portugal</option>
+                            <option value="scotland" th:selected="${nationality == 'scotland'}">Scotland</option>
+                            <option value="spain" th:selected="${nationality == 'spain'}">Spain</option>
+                            <option value="sweden" th:selected="${nationality == 'sweden'}">Sweden</option>
+                            <option value="uruguay" th:selected="${nationality == 'uruguay'}">Uruguay</option>
+                        </select>
+
+                        <label for="ageSelect">View Players By Age:</label>
+                        <select id="ageSelect" name="age" onchange="this.form.submit()">
+                            <option value="" disabled th:selected="${age == null}" selected>Select age</option>
+                            <option value="<20" th:selected="${age == '<20'}"><20</option>
+                            <option value="20-25" th:selected="${age == '20-25'}">20-25</option>
+                            <option value="26-30" th:selected="${age == '26-30'}">26-30</option>
+                            <option value=">30" th:selected="${age == '>30'}">>30</option>
+                        </select>
+                </form>
+            </div>
+        </div>
+
+        <div class="players-found">
+            <h2>Players found:</h2>
+            <div th:if="${noPlayersFound}" class="no-players-message">
+                <p>NO PLAYERS FOUND MATCHING THE CRITERIA</p>
+            </div>
+            <div class="players-grid" th:if="${!noPlayersFound}">
+                <div class="player-card" th:each="playerData : ${filteredPlayers}">
+                    <img th:src="${playerData.player.photo}" th:alt="${playerData.player.name}">
+                    <p class="player-name" th:text="${playerData.player.name}">Player Name</p>
+                    <form th:action="@{/players/details/{number}(number=${playerData.player.number})}" method="get">
+                        <button type="submit" class="details-button">Details</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
