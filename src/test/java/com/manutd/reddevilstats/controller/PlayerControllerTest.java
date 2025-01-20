@@ -94,6 +94,6 @@ public class PlayerControllerTest {
         String viewName = playerController.showPlayerDetails(10, model);
 
         assertEquals("player-details", viewName, "View name should be 'player-details'");
-        verify(model).addAttribute("player", mockPlayerData);
+        verify(model).addAttribute("playerData", mockPlayerData);
     }
 }

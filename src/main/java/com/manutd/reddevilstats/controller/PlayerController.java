@@ -45,7 +45,6 @@ public class PlayerController {
         if ("viewAll".equals(action)) {
             logger.info("User requested to view all players.");
             filteredPlayers = playerService.getAllPlayersData();
-            model.addAttribute("filteredPlayers", filteredPlayers);
             noPlayersFound = filteredPlayers.isEmpty();
         } else if ("filter".equals(action)) {
             logger.info("Filtering players with position: {}, nationality: {}, age: {}", position, nationality, age);

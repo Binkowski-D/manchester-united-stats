@@ -129,10 +129,10 @@
 
         <div class="players-found">
             <h2>Players found:</h2>
-            <div th:if="${noPlayersFound}" class="no-players-message">
+            <div th:if="${noPlayersFound ?: false}" class="no-players-message">
                 <p>NO PLAYERS FOUND MATCHING THE CRITERIA</p>
             </div>
-            <div class="players-grid" th:if="${!noPlayersFound}">
+            <div class="players-grid" th:if="${not (noPlayersFound ?: false)}">
                 <div class="player-card" th:each="playerData : ${filteredPlayers}">
                     <img th:src="${playerData.player.photo}" th:alt="${playerData.player.name}">
                     <p class="player-name" th:text="${playerData.player.name}">Player Name</p>
